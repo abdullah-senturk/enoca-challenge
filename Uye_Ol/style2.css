@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+	position: relative;
+    width: 100%;
+    height: 100vh;
+	margin:0;
+	padding:0;
+	border:none;
+	outline: none;
+	direction:ltr;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+body{
+	position: relative;
+    width: 100%;
+    height: 100%;
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	background-color: #ffffff;
+	text-decoration: none;
+    text-align: center;
+}
+.container{
+	position: relative;
+	width: 100%;
+    height: 100%;
+	margin:0px auto;
+	padding:0;
+	border:none;
+	outline:none;
+}
+.enter-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+    height: auto;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline:none;
+}
+.name-surname{
+    position: absolute;
+	top: 70px;
+	width: 450px;
+	height: 45px;
+	background: transparent;
+	padding-left: 15px;
+}
+.input-name{
+    float: left;
+	width: 210px;
+	height: 45px;
+	border: 1px solid #ACACAC;
+    border-radius: 30px;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-name-invalid{
+    float: left;
+	width: 210px;
+	height: 45px;
+	border: 1px solid red;
+    border-radius: 30px;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-name-message{
+    position: absolute;
+	top: 50px;
+	width: 430px;
+	height: 30px;
+	background: transparent;
+	padding-left: 15px;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+}
+.input-surname{
+    float: right;
+	width: 210px;
+	height: 45px;
+	border: 1px solid #ACACAC;
+    border-radius: 30px;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-surname-invalid{
+    float: right;
+	width: 210px;
+	height: 45px;
+	border: 1px solid red;
+    border-radius: 30px;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
+    padding-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-surname-message{
+	position: absolute;
+	top: 50px;
+	left: 230px;
+	width: 430px;
+	height: 30px;
+	background: transparent;
+	padding-left: 15px;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+}
+.input-email{   
+    position: absolute;
+	top: 150px;
+	width: 430px;
+	height: 45px;
+    border: 1px solid #ACACAC;
+    border-radius: 30px;
+    outline: none;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-email-invalid{
+    position: absolute;
+	top: 150px;
+	width: 430px;
+	height: 45px;
+    border: 1px solid red;
+    border-radius: 30px;
+    outline: none;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-email-message{
+    position: absolute;
+	top: 200px;
+	width: 430px;
+	height: 30px;
+	background: transparent;
+	padding-left: 15px;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+.input-phone{
+    position: absolute;
+	top: 230px;
+	width: 430px;
+	height: 45px;
+    border: 1px solid #ACACAC;
+    border-radius: 30px;
+    outline: none;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-phone-invalid{
+    position: absolute;
+	top: 230px;
+	width: 430px;
+	height: 45px;
+    border: 1px solid red;
+    border-radius: 30px;
+    outline: none;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.input-phone-message{
+    position: absolute;
+	top: 280px;
+	width: 430px;
+	height: 45px;
+	background: transparent;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+	margin-left: 25px;
+}
+.enter-password{
+    position: absolute;
+	top: 310px;
+	width: 430px;
+	height: 45px;
+	border: 1px solid #ACACAC;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+}
+.enter-password-invalid{
+    position: absolute;
+	top: 310px;
+	width: 430px;
+	height: 45px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+}
+.enter-password-message{
+    position: absolute;
+	top: 360px;
+	width: 430px;
+	height: 45px;
+	background: transparent;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+	margin-left: 25px;
+}
+.enter-password-input{
+    float: left;
+	width: 350px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#password-eye, #repassword-eye{
+    margin-top: 10px;
+	font-size: 25px;
+}
+.enter-repassword{
+    position: absolute;
+	top: 390px;
+	width: 430px;
+	height: 45px;
+	border: 1px solid #ACACAC;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+}
+.enter-repassword-invalid{
+    position: absolute;
+	top: 390px;
+	width: 430px;
+	height: 45px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+}
+.enter-repassword-message{
+    position: absolute;
+	top: 440px;
+	width: 450px;
+	height: 45px;
+	background: transparent;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+	margin-left: 40px;
+}
+.enter-repassword-input{
+    float: left;
+	width: 350px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.checkbox-area{
+    position: absolute;
+	top: 470px;
+	width: 430px;
+	height: 45px;
+	border: none;
+	background: transparent;
+	padding-left: 15px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.checkbox-area a, .checkbox-area a:hover{
+    color: rgb(255, 162, 40);
+    margin-left: 10px;
+    text-decoration: none;
+}
+.form-entry{
+    position: absolute;
+	top: 550px;
+	width: 250px;
+	height: 45px;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+	background: rgb(255, 162, 40);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+}
