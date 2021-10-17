@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+	position: relative;
+    width: 100%;
+    height: 100vh;
+	margin:0;
+	padding:0;
+	border:none;
+	outline: none;
+	direction:ltr;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+body{
+	position: relative;
+    width: 100%;
+    height: 100%;
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	background-color: #ffffff;
+	text-decoration: none;
+    text-align: center;
+}
+.container{
+	position: relative;
+	width: 100%;
+    height: 100%;
+	margin:0px auto;
+	padding:0;
+	border:none;
+	outline:none;
+}
+.enter-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+    height: auto;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline:none;
+}
+.enter-email{
+	position: absolute;
+	top: 170px;
+	width: 450px;
+	height: 45px;
+	border: 1px solid #ACACAC;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+}
+.enter-email-invalid{ 
+	position: absolute;
+	top: 170px;
+	width: 450px;
+	height: 45px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+}
+.enter-email-message{
+	position: absolute;
+	top: 220px;
+	width: 450px;
+	height: 30px;
+	background: transparent;
+	padding-left: 15px;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.enter-password{
+	position: absolute;
+	top: 250px;
+	width: 450px;
+	height: 45px;
+	border: 1px solid #ACACAC;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+}
+.enter-password-invalid{
+	position: absolute;
+	top: 250px;
+	width: 450px;
+	height: 45px;
+	border: 1px solid red;
+	border-radius: 30px;
+	background: transparent;
+	padding-left: 15px;
+}
+.enter-password-message{
+	position: absolute;
+	top: 300px;
+	width: 450px;
+	height: 45px;
+	background: transparent;
+	color: red;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 10px;
+}
+.enter-password-input{
+	float: left;
+	width: 370px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background: transparent;
+	text-decoration: none;
+}
+#password-eye{
+	margin-top: 10px;
+	font-size: 25px;
+}
+.form-group-text{
+	position: absolute;
+	top: 330px;
+	width: 450px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+.forgot-password{
+	float: left;
+	color: rgb(255, 162, 40);
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	margin-left: 5px;
+}
+.form-group-checkbox-area{
+	float: right;
+}
+.form-group-checkbox-area input{
+	margin-right: 15px;
+}
+.form-group-checkbox-area span{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+}
+.form-entry{
+	position: absolute;
+	top: 375px;
+	width: 250px;
+	height: 45px;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+	background: rgb(255, 162, 40);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+}
